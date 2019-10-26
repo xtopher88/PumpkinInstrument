@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/pumpkin.iml" filepath="$PROJECT_DIR$/.idea/pumpkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python-mingus/.idea/python-mingus.iml" filepath="$PROJECT_DIR$/python-mingus/.idea/python-mingus.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce861da3-4d6e-47ec-ad1a-07ed90212a93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/python-mingus/mingus_examples/improviser/improviser.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-mingus/mingus_examples/improviser/improviser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-mingus/mingus_examples/play_progression/play-progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-mingus/mingus_examples/play_progression/play-progression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-mingus/mingus_examples/pygame-drum/pygame-drum.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-mingus/mingus_examples/pygame-drum/pygame-drum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-mingus/mingus_examples/pygame-piano/pygame-piano.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-mingus/mingus_examples/pygame-piano/pygame-piano.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_sound.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3364">
+              <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_sound_multi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="109" selection-start-line="109" selection-end-line="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/mingus/containers/note.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4002">
+              <caret line="140" column="16" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/mingus/midi/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/mingus/midi/fluidsynth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5916">
+              <caret line="208" column="4" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-mingus/mingus/midi/sequencer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4031">
+              <caret line="139" selection-start-line="139" selection-end-line="139" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-mingus/mingus_examples/play_progression/play-progression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="32" column="68" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="68" />
+              <folding>
+                <element signature="e#191#238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-mingus/mingus_examples/pygame-drum/pygame-drum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1914">
+              <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-mingus/mingus_examples/improviser/improviser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1508">
+              <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-mingus/mingus_examples/pygame-piano/pygame-piano.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6989">
+              <caret line="246" column="25" selection-start-line="246" selection-start-column="16" selection-end-line="246" selection-end-column="25" />
+              <folding>
+                <element signature="e#658#671#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>play_Note</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/python-mingus" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/python-mingus/mingus_examples/play_progression/play-progression.py" />
+        <option value="$PROJECT_DIR$/python-mingus/mingus_examples/pygame-drum/pygame-drum.py" />
+        <option value="$PROJECT_DIR$/python-mingus/mingus_examples/improviser/improviser.py" />
+        <option value="$PROJECT_DIR$/python-mingus/mingus_examples/pygame-piano/pygame-piano.py" />
+        <option value="$PROJECT_DIR$/run_sound_multi.py" />
+        <option value="$PROJECT_DIR$/run_sound.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1954" />
+    <option name="y" value="464" />
+    <option name="width" value="1445" />
+    <option name="height" value="1074" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pumpkin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pumpkin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python-mingus" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="pumpkin" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="pumpkin" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/improviser/improviser" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_sound">
+    <configuration name="improviser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-mingus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-mingus/mingus_examples/improviser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-mingus/mingus_examples/improviser/improviser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="play-progression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-mingus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-mingus/mingus_examples/play_progression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-mingus/mingus_examples/play_progression/play-progression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pygame-drum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-mingus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-mingus/mingus_examples/pygame-drum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-mingus/mingus_examples/pygame-drum/pygame-drum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pygame-piano" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-mingus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-mingus/mingus_examples/pygame-piano" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-mingus/mingus_examples/pygame-piano/pygame-piano.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_sound" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pumpkin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_sound.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_sound" />
+        <item itemvalue="Python.pygame-piano" />
+        <item itemvalue="Python.improviser" />
+        <item itemvalue="Python.pygame-drum" />
+        <item itemvalue="Python.play-progression" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce861da3-4d6e-47ec-ad1a-07ed90212a93" name="Default Changelist" comment="" />
+      <created>1571601617385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571601617385</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1954" y="464" width="1445" height="1074" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5124911" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7619048" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/threaded_serial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-mingus/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-mingus/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/improviser/improviser/Musicians/Pianists/SlowStridePianist.py" />
+    <entry file="file://$PROJECT_DIR$/improviser/improviser/Musicians/Accompaniment/Strings.py" />
+    <entry file="file://$PROJECT_DIR$/improviser/improviser/Musicians/Accompaniment/BoogieWoogieRhythm.py" />
+    <entry file="file://$PROJECT_DIR$/improviser/improviser/Bands.py" />
+    <entry file="file://$PROJECT_DIR$/improviser/improviser/Sequencer.py" />
+    <entry file="file://$PROJECT_DIR$/improviser/improviser/mingus/core/keys.py" />
+    <entry file="file://$PROJECT_DIR$/improviser/improviser/Instrument.py" />
+    <entry file="file://$PROJECT_DIR$/improviser/improviser/mingus/containers/note.py" />
+    <entry file="file://$PROJECT_DIR$/improviser/improviser/Improviser.py" />
+    <entry file="file://$PROJECT_DIR$/improviser/improviser/Musicians/Guitarists/PowerChords.py" />
+    <entry file="file://$PROJECT_DIR$/improviser/setup.py" />
+    <entry file="file://$PROJECT_DIR$/python-mingus/mingus/midi/fluidsynth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5916">
+          <caret line="208" column="18" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/mingus/containers/note.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4002">
+          <caret line="140" column="16" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/mingus/midi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/mingus/midi/fluidsynth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5916">
+          <caret line="208" column="4" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-mingus/mingus/midi/sequencer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4031">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-mingus/mingus_examples/play_progression/play-progression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="68" />
+          <folding>
+            <element signature="e#191#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-mingus/mingus_examples/pygame-drum/pygame-drum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-mingus/mingus_examples/improviser/improviser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-mingus/mingus_examples/pygame-piano/pygame-piano.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6989">
+          <caret line="246" column="25" selection-start-line="246" selection-start-column="16" selection-end-line="246" selection-end-column="25" />
+          <folding>
+            <element signature="e#658#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_sound_multi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="109" selection-start-line="109" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_sound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3364">
+          <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
