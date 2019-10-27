@@ -85,17 +85,17 @@ class SoundMachine(object):
         #print in_dict['dist1'], in_dict['dist2'], in_dict['dist3']
         dist = in_dict['dist1']
         if (dist < 150):
-            # if (len(self.dist1_notes)>20):
-            #     fluidsynth.stop_Note(self.dist1_notes[0], 1)
-            #     self.dist1_notes = self.dist1_notes[1:]
+            if (len(self.dist1_notes)>20):
+                fluidsynth.stop_Note(self.dist1_notes[0], 1)
+                self.dist1_notes = self.dist1_notes[1:]
             dist1_note = Note()
             dist1_note.from_int(dist/2)
             fluidsynth.play_Note(dist1_note, 1, 80)
-            # self.dist1_notes.append(dist1_note)
-        # else:
-            # for note in self.dist1_notes:
-            #     fluidsynth.stop_Note(note, 1)
-            # self.dist1_notes = []
+            self.dist1_notes.append(dist1_note)
+        else:
+            for note in self.dist1_notes:
+                fluidsynth.stop_Note(note, 1)
+            self.dist1_notes = []
 
         dist = in_dict['dist2']
         if (dist < 150):
