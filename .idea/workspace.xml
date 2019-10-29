@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_sound.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="97" column="33" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="97" selection-end-column="33" />
+            <state relative-caret-position="353">
+              <caret line="129" column="9" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -65,6 +65,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>play_Note</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -412,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run_sound.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="97" column="33" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="97" selection-end-column="33" />
+        <state relative-caret-position="353">
+          <caret line="129" column="9" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="9" />
         </state>
       </provider>
     </entry>

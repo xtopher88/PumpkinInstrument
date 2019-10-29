@@ -84,7 +84,7 @@ class SoundMachine(object):
 
         #print in_dict['dist1'], in_dict['dist2'], in_dict['dist3']
         dist = in_dict['dist1']
-        if (dist < 150):
+        if (dist < 250):
             if (len(self.dist1_notes)>20):
                 fluidsynth.stop_Note(self.dist1_notes[0], 1)
                 self.dist1_notes = self.dist1_notes[1:]
@@ -98,9 +98,9 @@ class SoundMachine(object):
             self.dist1_notes = []
 
         dist = in_dict['dist2']
-        if (dist < 150):
-            if (len(self.dist1_notes)>20):
-                fluidsynth.stop_Note(self.dist2_notes[0], 1)
+        if (dist < 250):
+            if (len(self.dist2_notes)>20):
+                fluidsynth.stop_Note(self.dist2_notes[0], 2)
                 self.dist2_notes = self.dist2_notes[1:]
             dist_note = Note()
             dist_note.from_int(dist / 2)
