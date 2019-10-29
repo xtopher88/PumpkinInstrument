@@ -136,6 +136,8 @@ def main():
         input.open(test_input)
         time.sleep(120)
     else:
+        #play startup tune
+        time.sleep(30)
         sound_machine = SoundMachine()
         sound_machine.Open()
         input = InputInterface()
