@@ -12,6 +12,7 @@ import threaded_serial
 from mingus.core import notes, chords
 from mingus.containers import *
 from mingus.midi import fluidsynth
+import pygame
 
 
 
@@ -66,7 +67,15 @@ class SoundMachine(object):
     last_touch = [False]*7
     dist1_notes = []
     dist2_notes = []
+    last_detect_time = time.time()
+
     def Open(self):
+
+        pygame.mixer.init()
+        pygame.mixer.music.load("short_music.wav")
+        pygame.mixer.music.play()
+        self.last_detect_time = time.time()
+
         fluidsynth.init('/usr/share/sounds/sf2/FluidR3_GM.sf2', "alsa")
         fluidsynth.set_instrument(0, 6)
         fluidsynth.set_instrument(1, 4)
@@ -93,13 +102,13 @@ class SoundMachine(object):
             fluidsynth.play_Note(dist1_note, 1, 80)
             self.dist1_notes.append(dist1_note)
         else:
-            for note in self.dist1_notes:
-                fluidsynth.stop_Note(note, 1)
-            self.dist1_notes = []
+            if (len(self.dist1_notes)>0):
+                fluidsynth.stop_Note(self.dist1_notes[0], 1)
+                self.dist1_notes = self.dist1_notes[1:]
 
         dist = in_dict['dist2']
         if (dist < 250):
-            if (len(self.dist2_notes)>20):
+            if (len(self.dist2_notes)>40):
                 fluidsynth.stop_Note(self.dist2_notes[0], 2)
                 self.dist2_notes = self.dist2_notes[1:]
             dist_note = Note()
@@ -107,18 +116,26 @@ class SoundMachine(object):
             fluidsynth.play_Note(dist_note, 2, 80)
             self.dist2_notes.append(dist_note)
         else:
-            for note in self.dist2_notes:
-                fluidsynth.stop_Note(note, 2)
-            self.dist2_notes = []
+            if (len(self.dist2_notes)>0):
+                fluidsynth.stop_Note(self.dist2_notes[0], 2)
+                self.dist2_notes = self.dist2_notes[1:]
+
+            # for note in self.dist2_notes:
+            #     fluidsynth.stop_Note(note, 2)
+            # self.dist2_notes = []
 
         #TODO use distance 3 to play music from file
-
+        dist = in_dict['dist3']
+        if (dist < 250):
+            if (time.time() - self.last_detect_time) > 60:
+                pygame.mixer.music.play()
+            self.last_detect_time = time.time()
 
     def run(self):
         #takes the main loop and runs background tasks
-        insturment = 15
+        insturment = 0
         while 1:
-            time.sleep(10)
+            time.sleep(15)
             print "instrument {0}".format(insturment)
             fluidsynth.set_instrument(2,insturment)
             insturment+=1
@@ -137,9 +154,9 @@ def main():
         time.sleep(120)
     else:
         #play startup tune
-        time.sleep(30)
         sound_machine = SoundMachine()
         sound_machine.Open()
+        time.sleep(10)
         input = InputInterface()
         input.open(sound_machine.on_input)
         sound_machine.run()
